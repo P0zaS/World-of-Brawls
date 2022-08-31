@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Controla cuando el personaje esta tocando el suelo
+/// </summary>
 public class CheckGround : MonoBehaviour
 {
     public static bool colPies;

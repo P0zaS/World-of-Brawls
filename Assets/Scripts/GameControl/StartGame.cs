@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
+/// <summary>
+/// Se encarga de inicializar los datos necesarios para generar la partida
+/// </summary>
 public class StartGame : MonoBehaviour
 {
     public CharacterDatabase characterDB;

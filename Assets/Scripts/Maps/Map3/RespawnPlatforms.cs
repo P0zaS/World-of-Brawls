@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Modifica la posición de las plataformas del mapa 3 cuando llegan a su limite 
+/// </summary>
 public class RespawnPlatforms : MonoBehaviour
 {
     

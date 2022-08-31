@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Se encarfa de controlar las plataformas del mapa 3, se establece como 
+/// objeto padre de los objetos cuando entran en contacto con el hasta su salida
+/// </summary>
 public class AirPlatformManagement : MonoBehaviour
 {
 

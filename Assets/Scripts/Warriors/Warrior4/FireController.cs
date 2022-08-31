@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Controla cuando se destruye el fuego que genera el personaje 4
+/// </summary>
 public class FireController : MonoBehaviour
 {
    

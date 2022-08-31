@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 using Mono.Data.Sqlite;
 using System;
 
+/// <summary>
+/// Controla el final de la partida, mostrando la información necesaria por pantalla
+/// </summary>
 public class EndGame : MonoBehaviour
 {
     public static bool End = false;
@@ -80,7 +83,7 @@ public class EndGame : MonoBehaviour
 
             using (var cmd = conn.CreateCommand())
             {
-                cmd.CommandText = "INSERT INTO players_history (WinnerID,WinnerSprite,Name,P1Score,P2Score,Date) VALUES ( " + PlayerId + ", " + Winner + ", '" + (Winner == 1 ? P2Name : P1Name) + "', " + P1Score + ", " + P2Score +  ", '" + DateTime.UtcNow + "');";
+                cmd.CommandText = "INSERT INTO players_history (WinnerID,WinnerSprite,Name,P1Score,P2Score,Date) VALUES ( " + PlayerId + ", " + Winner + ", '" + (PlayerId == 1 ? P1Name : P2Name) + "', " + P1Score + ", " + P2Score +  ", '" + DateTime.UtcNow + "');";
                 cmd.ExecuteNonQuery();
                 
             }

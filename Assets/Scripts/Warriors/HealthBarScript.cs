@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Contiene los metodos que controlan la barra de vida, su vida maxima y cuando ganan rondas los jugadores
+/// </summary>
 public class HealthBarScript : MonoBehaviour
 {
     public Slider slider;

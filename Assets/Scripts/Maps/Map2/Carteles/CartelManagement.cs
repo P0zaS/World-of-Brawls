@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Se encarga de generar los carteles de manera aleatoria
+/// </summary>
 public class CartelManagement : MonoBehaviour
 {
     public CartelDatabase cartelDB;

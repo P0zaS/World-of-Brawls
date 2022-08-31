@@ -1,6 +1,9 @@
 
 using UnityEngine;
 
+/// <summary>
+/// La base de datos para almacenar los objetos de la partida
+/// </summary>
 [CreateAssetMenu]
 public class ItemsDatabase : ScriptableObject
 {

@@ -3,6 +3,9 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/// <summary>
+/// Contiene los ataques y controles del personaje 3
+/// </summary>
 public class Warrior3 : WarriorsController
 {
     public int Player = 0;

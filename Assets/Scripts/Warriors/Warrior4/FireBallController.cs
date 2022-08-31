@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Controla lo que le pasa a la bola de fuego al impactar
+/// </summary>
 public class FireBallController : MonoBehaviour
 {
     

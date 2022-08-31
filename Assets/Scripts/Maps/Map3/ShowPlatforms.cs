@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Se encarga de mostrar las plataformas después de un tiempo cuando se ocultan
+/// </summary>
 public class ShowPlatforms : MonoBehaviour
 {
     public float cooldown;

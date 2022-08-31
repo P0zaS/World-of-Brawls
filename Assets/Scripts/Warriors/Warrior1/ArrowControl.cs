@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Controla lo que ocurre a la flecha al colisionar
+/// </summary>
 public class ArrowControl : MonoBehaviour
 {
 

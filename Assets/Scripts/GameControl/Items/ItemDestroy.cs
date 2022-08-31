@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Controla cuando se destruyen los objetos de la partida
+/// </summary>
 public class ItemDestroy : MonoBehaviour
 {
 

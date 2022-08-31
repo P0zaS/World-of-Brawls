@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Controla el spawn de los objetos de la partida
+/// </summary>
 public class ItemSpawn : MonoBehaviour
 {
     public ItemsDatabase itemDB;

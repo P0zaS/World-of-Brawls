@@ -5,7 +5,9 @@ using UnityEngine.UI;
 using Mono.Data.Sqlite;
 using System.Data;
 
-
+/// <summary>
+/// Se encarga de realizar la consulta para recoger los datos necesarios para ser mostrados en la pantalla de historial
+/// </summary>
 public class HistoryQuery : MonoBehaviour
 {
 

@@ -2,7 +2,9 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-
+/// <summary>
+/// Contiene los datos generales que tienen en comun los personajes
+/// </summary>
 public class WarriorsController : MonoBehaviour
 {
     public bool isStunned = false;

@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Controla que pasa cuando se destruye un cartel
+/// </summary>
 public class CartelDestroy : MonoBehaviour
 {
     public static float cooldownStun = 0.5f;

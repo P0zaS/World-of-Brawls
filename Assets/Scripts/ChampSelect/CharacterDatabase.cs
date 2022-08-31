@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Clase que permite crear la base de datos de los personajes como un objeto
+/// </summary>
 [CreateAssetMenu]
 public class CharacterDatabase : ScriptableObject
 {

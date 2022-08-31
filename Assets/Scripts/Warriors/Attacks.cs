@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Controla el empuje que recibe el cartel al recibir un ataque
+/// </summary>
 public class Attacks : MonoBehaviour
 {
     public GameObject parent;

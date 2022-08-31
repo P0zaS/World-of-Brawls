@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/// <summary>
+/// Se encarga de cambiar los mapas dependiendo de los seleccionado en la selección de mapa
+/// </summary>
 public class MapaManagement : MonoBehaviour
 {
     public MapaDatabase mapaDB;

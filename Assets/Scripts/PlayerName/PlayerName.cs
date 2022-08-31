@@ -4,6 +4,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Guarda los nombres de los jugadores en la selección de nombres 
+/// </summary>
 public class PlayerName : MonoBehaviour
 {
 

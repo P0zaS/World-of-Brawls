@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/// <summary>
+/// Contiene los ataques y controles del personaje 4
+/// </summary>
 public class Warrior4 : WarriorsController
 {
     public int Player = 0;

@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Base de datos de los carteles del mapa 2
+/// </summary>
 [CreateAssetMenu]
 public class CartelDatabase : ScriptableObject
 {

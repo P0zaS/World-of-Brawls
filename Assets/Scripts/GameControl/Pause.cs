@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Controla el menú de pausa de la partida
+/// </summary>
 public class Pause : MonoBehaviour
 {
     public GameObject PauseMenu;

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using Mono.Data.Sqlite;
 
+/// <summary>
+/// Clase que se encarga de crear la base de datos al iniciar la aplicación
+/// </summary>
 public class Database : MonoBehaviour
 {
     private string dbName = @"URI=file:WoB.db";

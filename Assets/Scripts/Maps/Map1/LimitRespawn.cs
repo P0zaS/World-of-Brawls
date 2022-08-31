@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Controla los limites del mapa 1 y permite aparecer al otro lado
+/// </summary>
 public class LimitRespawn : MonoBehaviour
 {
     public bool isLeftLimit = false;

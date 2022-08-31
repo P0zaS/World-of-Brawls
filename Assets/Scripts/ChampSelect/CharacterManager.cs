@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Controla la selección de personaje de la escena ChampSelectScene
+/// </summary>
 public class CharacterManager : MonoBehaviour
 {
     public CharacterDatabase characterDB;

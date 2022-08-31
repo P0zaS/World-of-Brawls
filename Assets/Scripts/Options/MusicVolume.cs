@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Controla el volumen del menu de opciones, actualizando el objeto que contiene la música dependiendo de lo que el usuario a seleccionado
+/// </summary>
 public class MusicVolume : MonoBehaviour
 {
 
